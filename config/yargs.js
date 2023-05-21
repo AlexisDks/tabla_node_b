@@ -16,6 +16,11 @@ const argv = require('yargs')
         type: 'number',
         demandOption: true,
         describe: 'Este es el numero hasta donde quieres la tabla'
+    }).option('o', {
+        alias: 'operador',
+        type: 'string',
+        demandOption: true,
+        describe: 'Este es el operador elejido s(+), r(-), m(*), d(/)'
     })
     .check((argv, options) => {
         if (isNaN(argv.b)) {
