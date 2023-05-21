@@ -1,3 +1,6 @@
+# Notas:
+
+Tabla de operaciones hecho con node
 
 ```
 Opciones:
